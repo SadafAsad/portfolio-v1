@@ -2,13 +2,15 @@
 import {
   FaHtml5,
   FaCss3Alt,
-  FaBootstrap,
   FaReact,
-  FaGitAlt,
   FaGithubSquare,
   FaLink,
+  FaAndroid,
+  FaSwift,
+  FaJava,
+  FaPython,
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -43,43 +45,43 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <FaHtml5 className="display-4" />,
-    name: "HTML5",
-  },
-  {
-    id: 2,
-    skill: <FaCss3Alt className="display-4" />,
-    name: "CSS3",
-  },
-  {
-    id: 3,
-    skill: <SiJavascript className="display-4" />,
-    name: "JavaScript",
-  },
-  {
-    id: 4,
-    skill: <FaBootstrap className="display-4" />,
-    name: "BootStrap",
-  },
-  {
-    id: 5,
     skill: <FaReact className="display-4" />,
     name: "React",
   },
   {
+    id: 2,
+    skill: <FaAndroid className="display-4" />,
+    name: "Android",
+  },
+  {
+    id: 3,
+    skill: <FaJava className="display-4" />,
+    name: "Java",
+  },
+  {
+    id: 4,
+    skill: <FaPython className="display-4" />,
+    name: "Python",
+  },
+  {
+    id: 5,
+    skill: <FaSwift className="display-4" />,
+    name: "Swift",
+  },
+  {
     id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
+    skill: <SiJavascript className="display-4" />,
+    name: "JavaScript",
   },
   {
     id: 7,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
+    skill: <FaHtml5 className="display-4" />,
+    name: "HTML5",
   },
   {
     id: 8,
-    skill: <FaGitAlt className="display-4" />,
-    name: "Git",
+    skill: <FaCss3Alt className="display-4" />,
+    name: "CSS3",
   },
   {
     id: 9,
@@ -89,7 +91,7 @@ export const skillData = [
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+export const resume = "https://drive.google.com/file/d/1aDcDrvj6GItNDbhEetatFD7B3R4Cj-b0/view?usp=sharing";
 
 /* Projects
  ************************************************************** 
